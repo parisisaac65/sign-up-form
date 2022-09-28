@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;  
+}
+
+.container{
+    display: flex;
+}
+
+/* .left img{
+    max-width: 400px;
+    max-height: calc(100vh + 200px) ;
+} */
+
+.right{
+    background-color:rgb(158 158 158 / 9%)
+}
