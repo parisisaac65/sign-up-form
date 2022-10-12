@@ -62,13 +62,14 @@ body {
 }
 
 .top{
+    margin: 100px 25px 0px 40px;
     font-size: 1.5rem;
 }
 
-
-.top, .middle, .bottom {
-    margin:100px 25px;
+.middle, .bottom{
+    margin: 20px 0px 30px 40px; 
 }
+
 
 .middle p{
     font-size: 1.5rem;
@@ -81,4 +82,12 @@ input,label{
 
 input{
     margin-right: 60px;
+}
+
+button{
+    background-color:#09a9d8;
+    color:white;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-family: inherit;
 }
