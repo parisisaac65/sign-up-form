@@ -13,7 +13,13 @@
 <body>
     <div class="container">
         <div class="left">
-            <img src="images/italy.jpeg" alt="Cinque Terra in Italy">
+            <img src="images/italy.jpeg" class="italy-pic" alt="Cinque Terra in Italy">
+            <div class="banner">
+                <div class="wrapper">
+                    <img src="images/odin-lined.png" class="odin-logo" alt="Odin Lined Logo">
+                    <p>TRAVELBUG</p>
+                </div>
+            </div>
         </div>
         <div class="right">
             <div class="top">
@@ -22,15 +28,40 @@
                     <br><br>ultrices <em>sagittis</em> orci a scelerisque 
                 </p> 
             </div>
-            <form action="..." method="post">
-                <div class="middle">
-                    <p>Let's do this!</h1>
-                </div>     
-                    <p>text inputs here</p>
-                <div class="bottom">
-                    <p>create account button and login link</p>
-                </div>
-            </form>
+    
+            <div class = "middle"> 
+                <p>Let's do this!</p>
+                <form action="..." method="post">
+                    <div class="form-section">
+                        <div class="form-section-cell">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-section-cell">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number">
+
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="bottom">
+                <p>create account button and login link</p>
+            </div>
+
         </div>
     </div>
 </body>
