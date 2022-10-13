@@ -126,3 +126,7 @@ button{
 .bottom button, .bottom p{
     margin: 15px 0px 20px 40px;
 } 
+
+.error{
+    border:0.2px solid #d80101;
+}
