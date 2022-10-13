@@ -109,6 +109,11 @@ input{
     border-radius:5px;
 }
 
+input:focus{
+    border:0.2px solid rgba(14, 14, 223, 0.77);
+    box-shadow: 2px 3px 10px #888888;
+}
+
 button{
     background-color:#09a9d8;
     color:white;
@@ -118,6 +123,6 @@ button{
     font-size:1rem;
 }
 
-.bottom button, p{
+.bottom button, .bottom p{
     margin: 15px 0px 20px 40px;
 } 
