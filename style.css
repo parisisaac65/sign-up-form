@@ -22,7 +22,8 @@ body {
 .italy-pic{
     image-rendering:pixelated;
     max-width: 45vw;
-    height:calc(100vh + 200px);
+    height: 100vh; 
+    /* height:calc(100vh + 200px); */
 }
 
 .banner {
@@ -123,6 +124,10 @@ button{
     font-size:1rem;
 }
 
+button:hover{
+    border: 0.5px solid black;
+}
+
 .bottom button, .bottom p{
     margin: 15px 0px 20px 40px;
 } 
@@ -130,3 +135,4 @@ button{
 .error{
     border:0.2px solid #d80101;
 }
+
