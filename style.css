@@ -23,7 +23,6 @@ body {
     image-rendering:pixelated;
     max-width: 45vw;
     height: 100vh; 
-    /* height:calc(100vh + 200px); */
 }
 
 .banner {
@@ -136,3 +135,11 @@ button:hover{
     border:0.2px solid #d80101;
 }
 
+#password, #confirm_password{
+    margin-bottom:0px;
+}
+
+#password-error{
+    font-size:15px;
+    color: #d80101;
+}

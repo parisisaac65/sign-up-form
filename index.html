@@ -24,8 +24,8 @@
         </div>
         <div class="right">
             <div class="top">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.
+                <p>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. 
                     <br><br>Ultrices <em>sagittis</em> orci a scelerisque 
                 </p> 
             </div>
@@ -36,33 +36,34 @@
                     <div class="form-section">
                         <div class="form-section-cell">
                             <label for="first_name">FIRST NAME</label>
-                            <input type="text" id="first_name" name="first_name">
+                            <input type="text" id="first_name" name="first_name" required autocomplete="off">
                             
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required autocomplete="off">
                             
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password" required>
+                            <input type="password" id="password" name="password" required autocomplete="off">
+                            <div id="password-error"></div>
                         </div>
                         <div class="form-section-cell">
                             <label for="last_name">LAST NAME</label>
-                            <input type="text" id="last_name" name="last_name">
+                            <input type="text" id="last_name" name="last_name" required autocomplete="off">
                             
                             <label for="phone_number">PHONE NUMBER</label>
                             <input type="tel" id="phone_number" name="phone_number">
                             
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm_password" name="confirm_password" required>
+                            <input type="password" id="confirm_password" name="confirm_password" required autocomplete="off">
                         </div>
 
                     </div>
-                <!-- </form> -->
+               
             </div>
 
             <div class="bottom">
-                    <button type="button">Create Account</button>
-                    <p>Already have an account? <a href="...">Log in</a></p>
+                    <button type="submit" id="btn">Create Account</button>
                 </form>
+                    <p>Already have an account? <a href="#">Log in</a></p>
             </div>
 
         </div>
